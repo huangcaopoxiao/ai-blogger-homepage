@@ -1,5 +1,6 @@
 node_modules/
 dist/
+.netlify/
 .DS_Store
 desktop-preview.png
 mobile-preview.png
