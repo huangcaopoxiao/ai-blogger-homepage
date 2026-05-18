@@ -78,12 +78,12 @@ function App() {
         <div className="hero-image-wrap">
           <picture>
             <source
-              srcSet="/images/hero-ai-blogger-chinese-male-portrait.jpg"
+              srcSet="/images/hero-ai-blogger-studio-back.png"
               media="(max-width: 700px)"
             />
             <img
-              src="/images/hero-ai-blogger-chinese-male.jpg"
-              alt="Friendly Chinese male AI blogger recording in a warm studio"
+              src="/images/hero-ai-blogger-studio-back.png"
+              alt="Chinese male AI blogger working in a warm studio"
               className="hero-image"
             />
           </picture>
