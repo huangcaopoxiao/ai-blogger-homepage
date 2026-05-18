@@ -76,11 +76,17 @@ function App() {
 
       <section className="hero" id="top">
         <div className="hero-image-wrap">
-          <img
-            src="/images/hero-ai-blogger-chinese-male.jpg"
-            alt="Friendly Chinese male AI blogger recording in a warm studio"
-            className="hero-image"
-          />
+          <picture>
+            <source
+              srcSet="/images/hero-ai-blogger-chinese-male-portrait.jpg"
+              media="(max-width: 700px)"
+            />
+            <img
+              src="/images/hero-ai-blogger-chinese-male.jpg"
+              alt="Friendly Chinese male AI blogger recording in a warm studio"
+              className="hero-image"
+            />
+          </picture>
         </div>
         <div className="hero-content">
           <p className="kicker">AI Blogger / 人工智能内容创作者</p>

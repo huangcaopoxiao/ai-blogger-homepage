@@ -113,10 +113,14 @@ img {
     linear-gradient(0deg, rgba(21, 24, 20, 0.7), transparent 52%);
 }
 
+.hero-image-wrap picture,
 .hero-image {
   width: 100%;
   height: 100%;
   min-height: 640px;
+}
+
+.hero-image {
   object-fit: cover;
   object-position: 60% center;
 }
@@ -446,7 +450,7 @@ footer span {
   }
 
   .hero-image {
-    object-position: 64% center;
+    object-position: 68% center;
   }
 }
 
@@ -471,11 +475,25 @@ footer span {
   }
 
   .hero h1 {
-    font-size: clamp(3.55rem, 17vw, 5.8rem);
+    font-size: clamp(3.2rem, 14.5vw, 5rem);
+    line-height: 0.92;
   }
 
   .hero h1 span {
-    font-size: clamp(1.72rem, 9vw, 3rem);
+    max-width: 95%;
+    margin-top: 18px;
+    font-size: clamp(1.48rem, 7.4vw, 2.45rem);
+    line-height: 1.1;
+  }
+
+  .hero-copy {
+    max-width: 92%;
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .hero-image {
+    object-position: 12% 24%;
   }
 
   .about-media {
